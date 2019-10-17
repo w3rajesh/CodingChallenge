@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -12,88 +13,102 @@
 	<!-- Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
-	  
+
 </head>
 
 <body>
-
-	<!-- Navigation -->
-	<div class="navigation" id="myHeader">
-		<div class="navigation-left">
+	<header class="header" id="myHeader">
+		<a href="" class="logo">
 			<img src="images/logo.png" width="50" height="50" alt="Logo">
-		</div>
-		<div class="navigation-right">
-			<a href="#">Link 1</a>
-			<a href="#">Link 2</a>
-		</div>
-	</div>
+		</a>
+		<input class="menu-btn" type="checkbox" id="menu-btn" />
+		<label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+		<ul class="menu">
+			<li><a href="#blog">Blog</a></li>
+			<li><a href="#register">Register</a></li>
+			<li><a href="#knowmore">Know More</a></li>
+			<li><a href="#contact">Contact Us</a></li>
+		</ul>
+	</header>
 
 	<div class="main-cont">
 		<div class="sidebar sticky">
 			<h2>Sidebar</h2>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus pellentesque lectus ac velit ornare, a fermentum dui tempus. Cras ligula diam, lacinia in consequat eget, ultrices nec augue.</p>
 		</div>
-		<div class="content">
+		<div class="blog-content">
 			<main>
 				<article>
-					<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/Paleo_food.jpg">
+					<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/Paleo_food.jpg" alt="Paleo_food">
 					<h3>1) All of These Headlines Are Not Exactly The Same</h3>
 					<p>In the real world, you don't know how long the content will be. Writers will write what they need. Photos will be cropped to the shape that they should be. That's good. Make a system that allows this. You want it to be flexible and robust.</p>
+					<button type="button" class="action-btn" name="button">Read more</button>
 				</article>
 				<article>
-					<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/Indian_bengali_food.jpg">
+					<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/Indian_bengali_food.jpg" alt="Indian_bengali_food">
 					<h3>2) Some Are Short</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus.</p>
+					<button type="button" class="action-btn" name="button">Read more</button>
 				</article>
 				<article>
-					<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/Food_in_Miyajima.jpg">
+					<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/Food_in_Miyajima.jpg" alt="Food_in_Miyajima">
 					<h3>3) Some Headlines Can Sometimes Be Quite Long, Because It Takes Time to Make A Point</h3>
 					<p>Vivamus fermentum semper porta. Nunc diam velit, adipiscing ut tristique vitae, sagittis vel odio. Maecenas convallis ullamcorper ultricies. Curabitur ornare, ligula semper consectetur sagittis, nisi diam iaculis velit, id fringilla sem nunc vel mi. Nam dictum, odio nec pretium volutpat, arcu ante placerat erat, non tristique elit urna et turpis.</p>
+					<button type="button" class="action-btn" name="button">Read more</button>
 				</article>
 				<article>
-					<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/P1-Food_with_love.jpg">
+					<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/P1-Food_with_love.jpg" alt="P1-Food_with_love">
 					<h3>4) Also, Why Are We Using Fake Content? Let's Make Some Real-ish Content.</h3>
-					<p>By using real content, we can see the variation inherent in what this site might present. And we can design for those real world needs.
+					<p>By using real content, we can see the variation inherent in what this site might present. And we can design for those real world needs.</p>
+					<button type="button" class="action-btn" name="button">Read more</button>
 				</article>
 				<article>
-					<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/Beautiful_Chaldean_Food_for_Everyone.jpg">
+					<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/Beautiful_Chaldean_Food_for_Everyone.jpg" alt="Beautiful_Chaldean_Food">
 					<h3>5) Look At That</h3>
 					<p>Doesn't that look yummy?</p>
+					<button type="button" class="action-btn" name="button">Read more</button>
 				</article>
 				<article>
-					<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/Birds_on_stick_Shanghai_Qibao.jpg">
+					<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/Birds_on_stick_Shanghai_Qibao.jpg" alt="Birds_on_stick_Shanghai_Qibao">
 					<h3>6) See how this layout is broken?</h3>
 					<p>That's because floats are really crap at handling layout. We've been using a screwdriver as a hammer. It sort of works, but badly.</p>
+					<button type="button" class="action-btn" name="button">Read more</button>
 				</article>
 				<article>
-					<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/Restaurant_food_Kunming_Yunnan.jpg">
+					<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/Restaurant_food_Kunming_Yunnan.jpg" alt="Restaurant_food">
 					<h3>7) The New CSS Will Fix Things</h3>
 					<p>Finally we get some real hammers.</p>
+					<button type="button" class="action-btn" name="button">Read more</button>
 				</article>
 				<article>
 					<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/Bunter_Teller.jpg">
 					<h3>8) Several Kinds of Hammers</h3>
 					<p>Grid, Flexbox, Alignment, Shapes, .</p>
+					<button type="button" class="action-btn" name="button">Read more</button>
 				</article>
 				<article>
-					<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/P3-Egyptian_food_Koshary.jpg">
+					<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/P3-Egyptian_food_Koshary.jpg" alt="P3-Egyptian_food">
 					<h3>9) Size, Isn't That Magical!</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris tindunt.</p>
+					<button type="button" class="action-btn" name="button">Read more</button>
 				</article>
 				<article>
-					<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/Mexican_food.jpg">
+					<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/Mexican_food.jpg" alt="Mexican_food">
 					<h3>10) All of These Headlines</h3>
 					<p>Always three lines of text, which fits exactly in the available space. Describing where you will go when you click.</p>
+					<button type="button" class="action-btn" name="button">Read more</button>
 				</article>
 				<article>
-					<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/P2-Arepitas_Food_Macro.jpg">
+					<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/P2-Arepitas_Food_Macro.jpg" alt="P2-Arepitas_Food">
 					<h3>11) Are Exactly the Same</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris tindunt.</p>
+					<button type="button" class="action-btn" name="button">Read more</button>
 				</article>
 				<article>
-					<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/Ravenna_food.jpg">
+					<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/Ravenna_food.jpg" alt="Ravenna_food">
 					<h3>12) Size, Isn't That Magical!</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris tindunt.</p>
+					<button type="button" class="action-btn" name="button">Read more</button>
 				</article>
 
 			</main>
@@ -152,13 +167,13 @@
 						<input placeholder="Your Email Address" type="email" tabindex="2" required>
 					</fieldset>
 					<fieldset>
-						<input placeholder="Your Phone Number" type="number" tabindex="3" required>
+						<input placeholder="Your Phone Number" type="tel" tabindex="3" required>
 					</fieldset>
 					<fieldset>
 						<textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
 					</fieldset>
 					<fieldset>
-						<button name="submit" type="submit">Submit</button>
+						<button name="submit" class="action-btn" type="submit">Submit</button>
 					</fieldset>
 				</form>
 			</div>
